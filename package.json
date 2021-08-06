@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "A boilerplate for Phaser 3 using Parceljs v2",
   "scripts": {
-    "start": "./node_modules/.bin/parcel serve ./src/index.html -p 8000",
-    "build": "./node_modules/.bin/parcel build ./src/index.html --out-dir dist",
+    "start": "rimraf dist && parcel serve ./src/index.html -p 8000",
+    "build": "rimraf dist && parcel build ./src/index.html --dist-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "./node_modules/.bin/eslint ./src --ext .js,.jsx,.ts,.tsx"
+    "lint": "eslint ./src --ext .js,.jsx,.ts,.tsx"
   },
   "repository": {
     "type": "git",
@@ -26,15 +26,22 @@
     "url": "https://github.com/sinxwal/phaser3-typescript-parcel2-boilerplate/issues"
   },
   "homepage": "https://github.com/sinxwal/phaser3-typescript-parcel2-boilerplate#readme",
+  "browserslist": [
+    "> 0.2%",
+    "not dead"
+  ],
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.0.0-rc.0",
     "@parcel/transformer-typescript-tsc": "^2.0.0-rc.0",
+    "@parcel/transformer-webmanifest": "^2.0.0-rc.0",
     "@typescript-eslint/eslint-plugin": "^4.29.0",
     "@typescript-eslint/parser": "^4.29.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^3.4.0",
     "parcel": "^2.0.0-rc.0",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "phaser": "^3.55.2"

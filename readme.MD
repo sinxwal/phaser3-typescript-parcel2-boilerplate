@@ -53,19 +53,25 @@ Production files will be placed in the `dist` folder. Then upload those files to
 
 The contents of this template is the basic [Phaser3 getting started example](http://phaser.io/tutorials/getting-started-phaser3/part5).
 
-This template assumes you will want to organize your code into multiple files and use modern JavaScript (or TypeScript).
+This template assumes you will want to organize your code into multiple files and use TypeScript.
 
-JavaScript files are intended for the `src` folder. `main.ts` is the entry point referenced by `index.html`.
+TypeScript files are intended for the `src` folder. `main.ts` is the entry point referenced by `index.html`.
 
 Other than that there is no opinion on how you should structure your project. There is a `scenes` folder in `src` where the `HelloWorldScene.ts` lives but you can do whatever you want.
 
-# ESLint
+## ESLint + prettier
 
-This template uses a basic `eslint` set up for code linting to help you find and fix common problems in your JavaScript code.
+This template uses a basic `eslint` set up for code linting to help you find and fix common problems in your TypeScript code. Prettier is also used to autoformat code. Feel free to change `.prettierrs.js` and `.eslintrc.js` to adapt formatter and linter ruls for your needs.
 
 It does not aim to be opinionated.
 
 [See here for rules to turn on or off](https://eslint.org/docs/rules/).
+
+## Other notes
+
+You can use [Real Favicon Generator](<https://realfavicongenerator.net/>) to generate new favicons pack.
+
+Use [maskable.app/editor](<https://maskable.app/editor>) to generte maskable PWA icon.
 
 ## License
 
