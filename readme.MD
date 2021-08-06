@@ -73,6 +73,18 @@ You can use [Real Favicon Generator](<https://realfavicongenerator.net/>) to gen
 
 Use [maskable.app/editor](<https://maskable.app/editor>) to generte maskable PWA icon.
 
+## Usefull resources
+
+This boilerplate was inspired by other great repos and articles such as:
+
+[phaser3-parcel-template](<https://github.com/ourcade/phaser3-parcel-template>)
+
+[phaser3-typescript-parcel-template](<https://github.com/ourcade/phaser3-typescript-parcel-template>)
+
+[A Step-by-Step Tutorial On Making A Phaser 3 Game by shakuro.com](<https://shakuro.com/blog/phaser-js-a-step-by-step-tutorial-on-making-a-phaser-3-game>)
+
+[Parceljs v2 blog](<https://v2.parceljs.org/blog/rc0/>)
+
 ## License
 
 [MIT License](https://github.com/ourcade/phaser3-parcel-template/blob/master/LICENSE)
