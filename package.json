@@ -18,7 +18,12 @@
     "parcel",
     "parcel2",
     "typescript",
-    "boilerplate"
+    "linter",
+    "eslint",
+    "prettier",
+    "boilerplate",
+    "template",
+    "starter"
   ],
   "author": "sinxwal",
   "license": "MIT",
