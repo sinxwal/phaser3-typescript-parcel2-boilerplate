@@ -26,6 +26,14 @@
   </style>
 
   <script type="module" src="main.ts"></script>
+
+  <script type="module">
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register(new URL('service-worker.ts', import.meta.url), { type: 'module', scope: "/" });
+      });
+    }
+  </script>
 </body>
 
 </html>
